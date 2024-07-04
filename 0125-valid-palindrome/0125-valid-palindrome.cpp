@@ -9,7 +9,7 @@ public:
         }
         for(int i = 0; i < s1.size(); i++) {
             if(isupper(s1[i])) {
-                s1[i] = tolower(s1[i]);
+                s1[i] = s1[i] - 'A' + 'a';
             }
         }
         
