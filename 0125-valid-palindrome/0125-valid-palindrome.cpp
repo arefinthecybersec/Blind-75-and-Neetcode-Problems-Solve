@@ -6,9 +6,6 @@ public:
             if(islower(s[i]) || isupper(s[i]) || isdigit(s[i])) {
                 s1.push_back(s[i]);
             }
-            // if(isdigit(s[i])) {
-            //     return false;
-            // }
         }
         for(int i = 0; i < s1.size(); i++) {
             if(isupper(s1[i])) {
@@ -22,6 +19,6 @@ public:
         if(s1 == s2 || s1.size() == 1 || s.size() == 0) {
             return true;
         }
-        else return false;
+        return false;
     }
 };
