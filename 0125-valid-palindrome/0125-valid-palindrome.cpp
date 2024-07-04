@@ -10,11 +10,11 @@ public:
                 s1.push_back(s[i] - 'A' + 'a');
             }
         }
-        for(int i = 0; i < s1.size(); i++) {
-            if(isupper(s1[i])) {
-                s1[i] = s1[i] - 'A' + 'a';
-            }
-        }
+        // for(int i = 0; i < s1.size(); i++) {
+        //     if(isupper(s1[i])) {
+        //         s1[i] = s1[i] - 'A' + 'a';
+        //     }
+        // }
         
         string s2 = s1;
         reverse(s2.begin(), s2.end());
