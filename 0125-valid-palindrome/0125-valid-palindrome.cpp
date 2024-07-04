@@ -3,8 +3,11 @@ public:
     bool isPalindrome(string s) {
         string s1;
         for(int i = 0; i < s.size(); i++) {
-            if(islower(s[i]) || isupper(s[i]) || isdigit(s[i])) {
+            if(islower(s[i]) || isdigit(s[i])) {
                 s1.push_back(s[i]);
+            }
+            if(isupper(s[i])) {
+                s1.push_back(s[i] - 'A' + 'a');
             }
         }
         for(int i = 0; i < s1.size(); i++) {
