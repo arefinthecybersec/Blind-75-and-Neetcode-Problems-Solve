@@ -27,4 +27,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 <!---LeetCode Topics End-->
