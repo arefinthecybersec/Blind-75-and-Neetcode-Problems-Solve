@@ -28,8 +28,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [2058-concatenation-of-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2058-concatenation-of-array) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
+## Simulation
+|  |
+| ------- |
+| [2058-concatenation-of-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2058-concatenation-of-array) |
 <!---LeetCode Topics End-->
