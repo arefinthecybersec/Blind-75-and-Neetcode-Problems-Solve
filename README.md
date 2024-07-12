@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 ## String
@@ -31,6 +32,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [2058-concatenation-of-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2058-concatenation-of-array) |
@@ -63,4 +65,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
