@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0007-reverse-integer) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
 ## Enumeration
 |  |
