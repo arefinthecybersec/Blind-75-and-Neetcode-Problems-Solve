@@ -1,4 +1,4 @@
-# Blind-75-and-Neetcode-Problems-Solve
+# Blind-75 | Neetcode | Striver's A2Z Sheet Problems-Solve
 A collection of LeetCode questions to ace the coding interview! - Created using [LeetHub v2](https://github.com/arunbhardwaj/LeetHub-2.0)
 
 <!---LeetCode Topics Start-->
