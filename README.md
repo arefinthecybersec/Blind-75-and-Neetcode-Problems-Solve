@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
+| [1878-check-if-array-is-sorted-and-rotated](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2058-concatenation-of-array) |
 ## Dynamic Programming
 |  |
