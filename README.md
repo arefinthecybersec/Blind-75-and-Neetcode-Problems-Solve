@@ -26,11 +26,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
 | [0392-is-subsequence](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0392-is-subsequence) |
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0118-pascals-triangle) |
