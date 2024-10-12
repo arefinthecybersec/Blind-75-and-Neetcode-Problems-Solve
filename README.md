@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
+| [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0392-is-subsequence](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0392-is-subsequence) |
 ## Array
 |  |
@@ -37,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0118-pascals-triangle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -80,6 +82,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0009-palindrome-number) |
+| [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
 ## Enumeration
 |  |
