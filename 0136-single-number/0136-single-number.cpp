@@ -1,11 +1,16 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
-        int ck_xor = 0;
-        for(int i = 0; i < nums.size(); i++) {
-            ck_xor ^= nums[i];
+        map<int, int> my_map;
+        for(auto u: nums) {
+            my_map[u]++;
         }
-        return ck_xor;
+
+        for(auto u: my_map) {
+            if(u.second == 1) {
+                return u.first;
+            }
+        }
+        return {};
     }
 };
