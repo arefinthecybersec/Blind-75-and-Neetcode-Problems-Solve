@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
+| [0238-product-of-array-except-self](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0238-product-of-array-except-self) |
 | [0283-move-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -104,4 +105,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0136-single-number](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0136-single-number) |
+## Prefix Sum
+|  |
+| ------- |
+| [0238-product-of-array-except-self](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0238-product-of-array-except-self) |
 <!---LeetCode Topics End-->
