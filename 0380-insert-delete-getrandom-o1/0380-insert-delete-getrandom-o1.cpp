@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-#include <unordered_map>
-
 class RandomizedSet {
 public:
     // Use an unordered_map for O(1) insert and delete
