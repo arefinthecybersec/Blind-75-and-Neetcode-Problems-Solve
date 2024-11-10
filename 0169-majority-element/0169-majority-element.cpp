@@ -8,6 +8,6 @@ public:
         for(auto u: map_list) {
             if(u.second > n) return u.first;
         }
-        return {};
+        return {1};
     }
 };
