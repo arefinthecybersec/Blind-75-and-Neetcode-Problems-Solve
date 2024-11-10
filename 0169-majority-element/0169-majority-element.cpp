@@ -1,16 +1,21 @@
 //Expected Time Complexity = o(n)
 //Expected Memory Complexity = o(1)
+//Approach: Moore Voting Algorithm
 
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
-        unordered_map<int, int> map_list;
-        for(int i = 0; i < nums.size(); i++) map_list[nums[i]]++;
+        int cnt = 0;
+        int res = 0;
 
-        int n = nums.size()/2;
-        for(auto u: map_list) {
-            if(u.second > n) return u.first;
+        for(auto u: nums) {
+            if(cnt == 0) {
+                res = u;
+            }
+
+            if(u == res) cnt++;
+            else cnt--;
         }
-        return {};
+        return res;
     }
 };
