@@ -1,3 +1,6 @@
+//Expected Time Complexity = o(n)
+//Expected Memory Complexity = o(1)
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
