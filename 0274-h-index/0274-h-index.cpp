@@ -1,9 +1,11 @@
+//Expected Time Complexity: o(n log n)
+//Expected Memory Complexity: o(log n)
+
 class Solution {
 public:
     int hIndex(vector<int>& citations) {
         int n = citations.size();
         sort(citations.rbegin(), citations.rend());
-
         if(citations[0] == 0) {
             return 0;
         }
