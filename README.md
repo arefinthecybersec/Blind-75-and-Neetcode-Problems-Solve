@@ -132,8 +132,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
+| [0838-design-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0838-design-linked-list) |
 ## Randomized
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
+## Linked List
+|  |
+| ------- |
+| [0838-design-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0838-design-linked-list) |
 <!---LeetCode Topics End-->
