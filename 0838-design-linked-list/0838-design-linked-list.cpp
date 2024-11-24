@@ -1,3 +1,8 @@
+//T.C = O(n)
+//M.C = O(1)
+//Hints = Yes
+//Time: 1H 30M
+
 class MyLinkedList {
 public:
     struct Node {
