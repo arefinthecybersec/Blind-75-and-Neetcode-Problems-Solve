@@ -1,5 +1,5 @@
 //T.C = O(n)
-//M.C = O(1)
+//M.C = O(n)
 //Hints = Yes
 //Time: 1H 30M
 
