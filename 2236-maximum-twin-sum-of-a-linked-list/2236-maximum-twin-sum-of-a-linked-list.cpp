@@ -4,16 +4,15 @@ public:
         auto fast = head;
         auto slow = head;
 
-        //(n/2)th element target
         while(fast != nullptr) { 
             fast = fast -> next -> next;
             slow = slow -> next;
         }
 
         auto curr = head;
-        ListNode* prev = nullptr;
+        ListNode* prev = slow -> next;
 
-        //1st part of (n/2) element reverse
+        
         while(curr != slow) {
             auto nxt = curr -> next;
             curr -> next = prev;
@@ -21,17 +20,15 @@ public:
             curr = nxt;
         }
 
-        // try to implement reverse part and else part summation as a two pointer
-        ListNode* first = prev;
-        ListNode* second = slow;
+        ListNode* tmp = prev;
+        ListNode* tmp2 = slow;
         int mx = INT_MIN;
-
-        while(first && second) {
-            int sum = first -> val + second -> val;
+        while(tmp && tmp2) {
+            int sum = tmp -> val + tmp2 -> val;
             mx = max(mx, sum);
 
-            first = first -> next;
-            second = second -> next;
+            tmp = tmp -> next;
+            tmp2 = tmp2 -> next;
         }
         return mx;
     }
