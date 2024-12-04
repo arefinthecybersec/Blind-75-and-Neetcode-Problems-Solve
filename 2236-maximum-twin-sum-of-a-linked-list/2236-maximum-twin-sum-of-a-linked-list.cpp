@@ -5,7 +5,7 @@ public:
         auto slow = head;
 
         //(n/2)th element target
-        while(fast && fast -> next) { 
+        while(fast != nullptr) { 
             fast = fast -> next -> next;
             slow = slow -> next;
         }
