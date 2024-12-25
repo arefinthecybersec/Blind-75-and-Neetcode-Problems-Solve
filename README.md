@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
@@ -20,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
+| [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0392-is-subsequence) |
 ## Sorting
@@ -137,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0838-design-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0838-design-linked-list) |
 ## Randomized
@@ -159,4 +162,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+## Trie
+|  |
+| ------- |
+| [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 <!---LeetCode Topics End-->
