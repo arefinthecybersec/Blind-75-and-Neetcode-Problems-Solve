@@ -1,44 +1,19 @@
 class Solution {
 public:
     bool isSubsequence(string s, string t) {
-        int f = 0, f2 = 0, i = 0, j = 0, ck = 0;
-
-        if(s.size() == 0) {
-            return true;
-        }
-
-        for(; i < s.size(); ) {
-            for(; j < t.size(); ) {
-                if(s[i] == t[j]) {
-                    ck++;
-                    j++; i++; break;
-
-                    if(ck == s.size()) {
-                        f2 = 1; break;
-                    }
-                    if(i == s.size() || j == t.size()) {
-                        f = 1; break;
-                    }
-                }
-                else {
-                    j++;
+        int idx = 0, cnt = 0;
+        for (int i = 0; i < s.size(); i++) {
+            bool found = false;
+            for (int j = idx; j < t.size(); j++) {
+                if (s[i] == t[j]) {
+                    cnt++;
+                    idx = j + 1;
+                    found = true;
+                    break;
                 }
             }
-
-            if(ck == s.size()) {
-                f2 = 1; break;
-            }
-            if(i == s.size() || j == t.size()) {
-                f = 1; break;
-            }
+            if (!found) return false;
         }
-
-        if(f2 == 1) {
-            return true;
-        }
-        else if(f == 1) {
-            return false;
-        }
-        else return false;
+        return cnt == s.size();
     }
 };
