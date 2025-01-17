@@ -1,12 +1,12 @@
 class Solution {
 public:
     int removeDuplicates(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
+        int n = nums.size();
+        int arr[n+1];
         int sz = unique(nums.begin(), nums.end()) - nums.begin();
-        vector<int> v;
         for(int i = 0; i < sz; i++) {
-            v.push_back(nums[i]);
+            arr[i] = nums[i];
         }
-        return v.size();
+        return sz;
     }
 };
