@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
 | [0392-is-subsequence](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0392-is-subsequence) |
+| [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 ## Sorting
 |  |
 | ------- |
@@ -159,9 +160,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0206-reverse-linked-list) |
+| [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 ## Stack
 |  |
 | ------- |
+| [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Trie
 |  |
