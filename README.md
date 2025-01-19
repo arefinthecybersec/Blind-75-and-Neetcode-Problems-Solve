@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
 | [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0141-linked-list-cycle) |
 | [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
@@ -170,4 +172,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
+## String Matching
+|  |
+| ------- |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->
