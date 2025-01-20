@@ -1,21 +1,19 @@
-//Expected Time Complexity = o(n)
-//Expected Memory Complexity = o(1)
-//Approach: Moore Voting Algorithm
-
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
         int cnt = 0;
-        int res = 0;
+        int winner = 0;
 
-        for(auto u: nums) {
+        for(int i = 0; i < nums.size(); i++) {
             if(cnt == 0) {
-                res = u;
+                winner = nums[i];
             }
-
-            if(u == res) cnt++;
+            
+            if(nums[i] == winner) {
+                cnt++;
+            }
             else cnt--;
         }
-        return res;
+        return winner;
     }
 };
