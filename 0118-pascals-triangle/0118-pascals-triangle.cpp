@@ -1,23 +1,22 @@
-#define pb push_back
 class Solution {
 public:
     vector<vector<int>> generate(int numRows) {
-        vector<vector<int>> v;
-        // if (numRows == 0) return v;
+        vector<vector<int>> ans;
+        if(numRows == 1) return {{1}};
+        if(numRows == 2) return {{1},{1, 1}};
 
-        v.pb({1});
-        if (numRows == 1) return v;
+        ans.push_back({1});
+        ans.push_back({1, 1});
 
-        for (int i = 1; i < numRows; i++) {
-            vector<int> row;
-            row.pb(1);
-            for (int j = 1; j < i; j++) {
-                row.pb(v[i-1][j-1] + v[i-1][j]);
+        // tmp.push_back(1);
+        for(int i = 2; i < numRows; i++) {
+            vector<int> tmp(i+1, 1);
+            for(int j = 1; j < i; j++) {
+                tmp[j] = ans[i-1][j-1] + ans[i-1][j];
             }
-            row.pb(1);
-            v.pb(row);
+            ans.push_back(tmp);
         }
-
-        return v;
+        // tmp.push_back(1);
+        return ans;
     }
 };
