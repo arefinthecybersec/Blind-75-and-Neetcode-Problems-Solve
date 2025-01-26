@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
+| [0990-verifying-an-alien-dictionary](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0990-verifying-an-alien-dictionary) |
 ## String
 |  |
 | ------- |
@@ -28,6 +29,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0392-is-subsequence](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0392-is-subsequence) |
 | [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 | [0415-add-strings](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0415-add-strings) |
+| [0990-verifying-an-alien-dictionary](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0990-verifying-an-alien-dictionary) |
 ## Sorting
 |  |
 | ------- |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
+| [0990-verifying-an-alien-dictionary](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0990-verifying-an-alien-dictionary) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [2058-concatenation-of-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2058-concatenation-of-array) |
