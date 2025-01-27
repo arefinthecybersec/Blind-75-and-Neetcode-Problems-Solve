@@ -2,22 +2,18 @@ class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
         int n = nums.size();
-        vector<int> leftArray;
-        vector<int> rightArray;
-
-        leftArray.push_back(0);
-        rightArray.push_back(0);
+        vector<int> leftArray(n, 0);
+        vector<int> rightArray(n, 0);
+        int leftSum = 0;
+        int rightSum = 0;
 
         for(int i = 0; i < n; i++) {
-            if(i != n-1) {
-                leftArray.push_back(nums[i] + leftArray.back());
-            }
+            leftArray[i] = leftSum;
+            leftSum += nums[i];
 
-            if(i != 0) {
-                rightArray.push_back(nums[n-i] + rightArray.back());
-            }
+            rightArray[n-i-1] = rightSum;
+            rightSum += nums[n-i-1];
         }
-        reverse(rightArray.begin(), rightArray.end());
 
         for(int i = 0; i < n; i++) {
             if(leftArray[i] == rightArray[i]) {
