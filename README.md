@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0283-move-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0283-move-zeroes) |
 | [0347-top-k-frequent-elements](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
+| [0724-find-pivot-index](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0724-find-pivot-index) |
 | [0990-verifying-an-alien-dictionary](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0990-verifying-an-alien-dictionary) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/1878-check-if-array-is-sorted-and-rotated) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0238-product-of-array-except-self) |
+| [0724-find-pivot-index](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0724-find-pivot-index) |
 ## Counting Sort
 |  |
 | ------- |
