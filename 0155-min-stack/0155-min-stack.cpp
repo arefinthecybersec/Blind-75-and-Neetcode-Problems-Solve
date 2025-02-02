@@ -14,12 +14,10 @@ public:
     }
     
     void pop() {
-        if(!mainStack.empty()) {
-            if(mainStack.top() == minStack.top()) {
-                minStack.pop();
-            }
-            mainStack.pop();
+        if(mainStack.top() == minStack.top()) {
+            minStack.pop();
         }
+        mainStack.pop();
     }
     
     int top() {
