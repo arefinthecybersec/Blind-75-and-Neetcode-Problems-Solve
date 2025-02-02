@@ -155,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0155-min-stack](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0155-min-stack) |
 | [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
 | [0838-design-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0838-design-linked-list) |
@@ -182,6 +183,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0020-valid-parentheses) |
+| [0155-min-stack](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0155-min-stack) |
 | [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Trie
