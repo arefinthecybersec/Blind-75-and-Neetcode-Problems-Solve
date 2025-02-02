@@ -23,16 +23,10 @@ public:
     }
     
     int top() {
-        if(!mainStack.empty()) {
-            return mainStack.top();
-        }
-        return -1;
+        return mainStack.top();
     }
     
     int getMin() {
-        if(!minStack.empty()) {
-            return minStack.top();
-        }
-        return -1;
+        return minStack.top();
     }
 };
