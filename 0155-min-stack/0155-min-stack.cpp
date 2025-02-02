@@ -2,10 +2,6 @@ class MinStack {
 private:
     stack<int> minStack, mainStack;
 public:
-    // MinStack() {
-
-    // }
-    
     void push(int val) {
         if(minStack.empty() || val <= minStack.top()) {
             minStack.push(val);
