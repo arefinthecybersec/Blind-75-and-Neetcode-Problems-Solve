@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0073-set-matrix-zeroes) |
 | [0141-linked-list-cycle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0169-majority-element) |
 | [0208-implement-trie-prefix-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0242-valid-anagram) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0125-valid-palindrome](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0125-valid-palindrome) |
 | [0141-linked-list-cycle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0142-linked-list-cycle-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0151-reverse-words-in-a-string) |
 | [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0283-move-zeroes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0283-move-zeroes) |
@@ -169,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0019-remove-nth-node-from-end-of-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0021-merge-two-sorted-lists](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0021-merge-two-sorted-lists) |
 | [0141-linked-list-cycle](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0141-linked-list-cycle) |
+| [0142-linked-list-cycle-ii](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0142-linked-list-cycle-ii) |
 | [0206-reverse-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0206-reverse-linked-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0237-delete-node-in-a-linked-list) |
 | [0838-design-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0838-design-linked-list) |
