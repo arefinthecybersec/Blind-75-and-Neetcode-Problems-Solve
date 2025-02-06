@@ -129,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0007-reverse-integer](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0007-reverse-integer) |
 | [0009-palindrome-number](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0009-palindrome-number) |
+| [0050-powx-n](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0204-count-primes) |
 | [0380-insert-delete-getrandom-o1](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0380-insert-delete-getrandom-o1) |
@@ -181,6 +182,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0021-merge-two-sorted-lists](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0021-merge-two-sorted-lists) |
+| [0050-powx-n](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0050-powx-n) |
 | [0206-reverse-linked-list](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0206-reverse-linked-list) |
 | [0394-decode-string](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0394-decode-string) |
 ## Stack
