@@ -1,19 +1,24 @@
 class Solution {
 public:
-    double myPow(double x, int n) {
-        double result = 1;
-        long long power = n;
+    double recursiveApproach(double x, long long n) {
+        if(x == 0) return 0;
+        if(n == 0) return 1;
 
-        if (power < 0) {
-            x = 1 / x;
-            power = -power;
-        }
+        double res;
+        res = recursiveApproach(x, n/2);
 
-        while (power > 0) {
-            if (power % 2 == 1) result *= x; 
-            x *= x;
-            power /= 2; 
+        if(n & 1) {
+            return x * res * res;
         }
-        return result;
+        else return res * res;
+    }
+
+    double myPow(double x, long long n) {
+        double ans = recursiveApproach(x, abs(n));
+
+        if(n < 0) {
+            ans = 1/ans;
+        }
+        return ans;
     }
 };
