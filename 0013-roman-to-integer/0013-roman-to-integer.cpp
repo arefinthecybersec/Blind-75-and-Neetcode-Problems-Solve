@@ -12,14 +12,14 @@ public:
         };
 
         int sum = 0;
-        for(int i = 0; i < s.size(); ) {
+        for(int i = 0; i < s.size(); i++) {
             if(i < s.size()-1 && romanVal[s[i]] < romanVal[s[i+1]]) {
                 sum += (romanVal[s[i+1]] - romanVal[s[i]]);
-                i+=2;
+                i++;
             }
             else {
                 sum += (romanVal[s[i]]);
-                i++;
+                // i++;
             } 
         }
         return sum;
