@@ -1,27 +1,21 @@
 class Solution {
 public:
     bool isPalindrome(string s) {
-        string s1;
+        string t;
         for(int i = 0; i < s.size(); i++) {
-            if(islower(s[i]) || isdigit(s[i])) {
-                s1.push_back(s[i]);
-            }
             if(isupper(s[i])) {
-                s1.push_back(s[i] - 'A' + 'a');
+                s[i] = tolower(s[i]);
+            }
+            if(isupper(s[i]) || islower(s[i]) || isdigit(s[i])) {
+                t.push_back(s[i]);
             }
         }
-        // for(int i = 0; i < s1.size(); i++) {
-        //     if(isupper(s1[i])) {
-        //         s1[i] = s1[i] - 'A' + 'a';
-        //     }
-        // }
-        
-        string s2 = s1;
-        reverse(s2.begin(), s2.end());
 
-        if(s1 == s2 || s1.size() == 1 || s.size() == 0) {
+        string tmp = t;
+        reverse(t.begin(), t.end());
+        if(tmp == t) {
             return true;
         }
-        return false;
+        else return false;
     }
 };
