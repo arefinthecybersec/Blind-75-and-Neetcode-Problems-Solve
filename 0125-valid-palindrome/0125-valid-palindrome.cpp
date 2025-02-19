@@ -3,19 +3,21 @@ public:
     bool isPalindrome(string s) {
         string t;
         for(int i = 0; i < s.size(); i++) {
-            if(isupper(s[i])) {
-                s[i] = tolower(s[i]);
-            }
-            if(isupper(s[i]) || islower(s[i]) || isdigit(s[i])) {
-                t.push_back(s[i]);
-            }
+            s[i] = tolower(s[i]);
         }
 
-        string tmp = t;
-        reverse(t.begin(), t.end());
-        if(tmp == t) {
-            return true;
+        int i = 0, j = s.size()-1;
+        while(i < j) {
+            while(i < j && !isalnum(s[i])) {
+                i++;
+            }
+            while(i < j && !isalnum(s[j])) {
+                j--;
+            }
+
+            if(s[i] != s[j]) return false;
+            i++, j--;
         }
-        else return false;
+        return true;
     }
 };
