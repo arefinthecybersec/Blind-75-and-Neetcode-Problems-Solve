@@ -1,40 +1,50 @@
-/**
- * Definition for singly-linked list.
- * struct ListNode {
- *     int val;
- *     ListNode *next;
- *     ListNode() : val(0), next(nullptr) {}
- *     ListNode(int x) : val(x), next(nullptr) {}
- *     ListNode(int x, ListNode *next) : val(x), next(next) {}
- * };
- */
+
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        auto dHead = new ListNode(0); //add dummy head
-        dHead -> next = head;
+        if (!head) return nullptr;
+        
+        auto curr = head;
+        ListNode* prev = nullptr;
+        ListNode* next = nullptr;
 
-        auto fast = dHead;
-        auto slow = dHead;
-
-        for (int i = 0; i <= n; i++) {
-            if(fast == nullptr) return head; //
-            fast = fast -> next;
+        while(curr != nullptr) {
+            next = curr -> next;
+            curr -> next = prev;
+            prev = curr;
+            curr = next;
         }
+        head = prev;
 
-        while(fast != nullptr) {
-            fast = fast -> next;
-            slow = slow -> next;
+        n = n - 1;
+        if(n == 0) {
+            ListNode* temp = head;
+            head = head -> next;
+            delete temp;
         }
+        else {
+            ListNode* temp = head;
+            for(int i = 0; i < n-1 && temp -> next != nullptr; i++) {
+                temp = temp -> next;
+            }
+            if(temp -> next != nullptr) {
+                ListNode* toDelete = temp -> next;
+                temp -> next = temp -> next -> next;
+                delete toDelete;
+            }
+        }
+        // return head;
 
-        auto toDelete = slow -> next;
-        slow -> next = toDelete -> next;
-        delete toDelete;
+        curr = head;
+        prev = nullptr;
+        next = nullptr;
 
-        auto newHead = dHead -> next;
-        // delete dHead;
-        return newHead;
+        while(curr != nullptr) {
+            next = curr -> next;
+            curr -> next = prev;
+            prev = curr;
+            curr = next;
+        }
+        return prev;
     }
 };
-
-
