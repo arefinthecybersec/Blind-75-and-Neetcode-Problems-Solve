@@ -2,8 +2,6 @@
 class Solution {
 public:
     ListNode* removeNthFromEnd(ListNode* head, int n) {
-        if (!head) return nullptr;
-        
         auto curr = head;
         ListNode* prev = nullptr;
         ListNode* next = nullptr;
@@ -16,7 +14,7 @@ public:
         }
         head = prev;
 
-        n = n - 1;
+        n = n-1; //for 0-based indexing:
         if(n == 0) {
             ListNode* temp = head;
             head = head -> next;
@@ -33,7 +31,6 @@ public:
                 delete toDelete;
             }
         }
-        // return head;
 
         curr = head;
         prev = nullptr;
@@ -45,6 +42,7 @@ public:
             prev = curr;
             curr = next;
         }
+
         return prev;
     }
 };
