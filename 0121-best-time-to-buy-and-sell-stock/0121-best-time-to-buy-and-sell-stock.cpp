@@ -1,3 +1,6 @@
+//T.C = O(n) -> n length array 
+//S.C = O(1) -> use constant space
+
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
