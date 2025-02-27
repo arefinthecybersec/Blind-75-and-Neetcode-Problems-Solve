@@ -1,27 +1,35 @@
+// Required T.C = O(n^2)
+// approach -> Two-Pointer
+
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
         sort(nums.begin(), nums.end());
         vector<vector<int>> triplets;
-
+        
         for(int i = 0; i < nums.size(); i++) {
-            int a = nums[i];
-            int L = i+1;
-            int R = nums.size()-1;
-            int target = -a;
+            // while(i+1 < nums.size() && nums[i] == nums[i+1]) i++; //1st ccomment
 
-            while(i+1 < nums.size() && nums[i+1] == a) i++;
+            int L = i+1, R = nums.size()-1;
+            int a = nums[i], ans = -a;
+            while(i+1 < nums.size()-1 && nums[i] == nums[i+1]) i++;
+            // while(i+1 < nums.size() && nums[i+1] == a) i++; //2nd comment
             while(L < R) {
-                if(nums[L] + nums[R] > target) R--;
-                else if(nums[L] + nums[R] < target) L++;
+
+                if(nums[L] + nums[R] > ans) {
+                    R--;
+                }
+                else if(nums[L] + nums[R] < ans) {
+                    L++;
+                }
                 else {
                     int b = nums[L];
                     int c = nums[R];
 
-                    while(L+1 < R && nums[L+1] == b) L++;
-                    while(L < R-1 && nums[R-1] == c) R--;
-                    triplets.push_back({a,b,c});
+                    while(L < R-1 && nums[R] == nums[R-1]) R--;
+                    while(L+1 < R && nums[L] == nums[L+1]) L++;
 
+                    triplets.push_back({a, b, c});
                     L++, R--;
                 }
             }
