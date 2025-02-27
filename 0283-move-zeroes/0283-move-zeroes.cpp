@@ -1,19 +1,26 @@
+// didn't sort & didn't coppy
+// 
+
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int cnt = count(nums.begin(), nums.end(), 0);
-        for(int i = nums.size()-1; i >= 0; i--) {
-            if(nums[i] == 0) {
-                nums.erase(nums.begin()+i);
+        int sz = nums.size();
+        // int cntZero = count(nums.begin(), nums.end(), 0);
+        if(sz == 1) cout << nums[0];
+
+        int i = 0, j = 0;
+        while(j < nums.size() && sz > 1) {
+            if(nums[i] != 0) {
+                i++, j++;
+            }
+            else if(nums[j] == 0) {
+                j++;
+            }
+            else {
+                swap(nums[i], nums[j]);
+                i++;
             }
         }
-
-        for(int i = 0; i < cnt; i++) {
-            nums.push_back(0);
-        }
-
-        for(int i = 0; i < nums.size(); i++) {
-            cout << nums[i];
-        }
+        for(int num: nums) cout << num << " ";
     }
 };
