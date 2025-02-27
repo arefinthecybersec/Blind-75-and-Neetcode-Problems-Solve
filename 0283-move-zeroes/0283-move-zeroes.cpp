@@ -5,14 +5,22 @@
 class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
-        int i = 0, j = 0;
+        int sz = nums.size();
+        if(sz == 1) cout << nums[0];
 
-        while(j < nums.size()) {
-            if(nums[j] != 0) {
+        int i = 0, j = 0;
+        while(j < nums.size() && sz > 1) {
+            if(nums[i] != 0) {
+                i++, j++;
+            }
+            else if(nums[j] == 0) {
+                j++;
+            }
+            else {
                 swap(nums[i], nums[j]);
                 i++;
             }
-            j++;
         }
+        for(int num: nums) cout << num << " ";
     }
 };
