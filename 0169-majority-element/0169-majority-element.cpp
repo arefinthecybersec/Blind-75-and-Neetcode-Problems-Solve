@@ -1,3 +1,6 @@
+// Required Space = O(1)
+// Approach: Voting Algo.
+
 class Solution {
 public:
     int majorityElement(vector<int>& nums) {
@@ -8,7 +11,6 @@ public:
             if(cnt == 0) {
                 winner = nums[i];
             }
-            
             if(nums[i] == winner) {
                 cnt++;
             }
