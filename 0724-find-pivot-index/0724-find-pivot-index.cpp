@@ -1,27 +1,22 @@
 //T.C = O(n)
-// S.C = O(n)
+//S.C = O(1)
 //Appr -> prefix sum
 
 class Solution {
 public:
     int pivotIndex(vector<int>& nums) {
-        int n = nums.size();
-        vector<int> leftArray(n, 0);
-        vector<int> rightArray(n, 0);
+        int totalSum = 0;
+        int leftSum = 0;
 
-        for(int i = 1; i < n; i++) {
-            leftArray[i] = nums[i-1] + leftArray[i-1];
+        for(int num: nums) {
+            totalSum += num;
         }
 
-        // rightArray[n-1] = 0;
-        for(int i = n-2; i >= 0; i--) {
-            rightArray[i] = nums[i+1] + rightArray[i+1];
-        }
-
-        for(int i = 0; i < n; i++) {
-            if(leftArray[i] == rightArray[i]) {
+        for(int i = 0; i < nums.size(); i++) {
+            if(leftSum == totalSum - leftSum - nums[i]) {
                 return i;
             }
+            leftSum += nums[i];
         }
         return -1;
     }
