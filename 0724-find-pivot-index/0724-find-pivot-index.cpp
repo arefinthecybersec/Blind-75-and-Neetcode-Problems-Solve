@@ -9,12 +9,11 @@ public:
         vector<int> leftArray(n, 0);
         vector<int> rightArray(n, 0);
 
-        // leftArray[0] = nums[0];
         for(int i = 1; i < n; i++) {
             leftArray[i] = nums[i-1] + leftArray[i-1];
         }
 
-        rightArray[n-1] = 0;
+        // rightArray[n-1] = 0;
         for(int i = n-2; i >= 0; i--) {
             rightArray[i] = nums[i+1] + rightArray[i+1];
         }
