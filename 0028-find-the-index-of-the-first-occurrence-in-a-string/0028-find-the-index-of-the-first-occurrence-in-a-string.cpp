@@ -1,8 +1,20 @@
 class Solution {
 public:
     int strStr(string haystack, string needle) {
-        int x = -1;
-        x = haystack.find(needle);
-        return x;
+        int j = 0; 
+        
+        for (int i = 0; i < haystack.size(); i++) {
+            if (haystack[i] == needle[j]) {
+                j++;  
+            } else {
+                i -= j; 
+                j = 0;  
+            }
+
+            if (j == needle.size()) {
+                return i - needle.size() + 1;
+            }
+        }
+        return -1;
     }
 };
