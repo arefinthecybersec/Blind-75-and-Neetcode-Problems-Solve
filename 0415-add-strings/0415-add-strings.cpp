@@ -11,8 +11,9 @@ public:
             if(j >= 0) x2 = num2[j] - '0';
 
             int sum = (x1 + x2) + carry;
-            result.push_back((sum % 10) + '0');
             carry = (sum / 10);
+            result.push_back((sum % 10) + '0');
+            // carry = (sum / 10);
 
             i--, j--;
         }
