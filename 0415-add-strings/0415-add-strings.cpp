@@ -7,15 +7,12 @@ public:
         while(i >= 0 || j >= 0 || carry) {
             int x1 = 0, x2 = 0;
 
-            if(i >= 0) x1 = num1[i] - '0';
-            if(j >= 0) x2 = num2[j] - '0';
+            if(i >= 0) x1 = num1[i--] - '0';
+            if(j >= 0) x2 = num2[j--] - '0';
 
             int sum = (x1 + x2) + carry;
-            carry = (sum / 10);
             result.push_back((sum % 10) + '0');
-            // carry = (sum / 10);
-
-            i--, j--;
+            carry = (sum / 10);
         }
         reverse(result.begin(), result.end());
 
