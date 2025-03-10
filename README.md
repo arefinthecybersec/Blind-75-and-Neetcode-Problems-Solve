@@ -215,10 +215,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0975-range-sum-of-bst) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0975-range-sum-of-bst) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -227,4 +229,9 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0104-maximum-depth-of-binary-tree](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0975-range-sum-of-bst](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0975-range-sum-of-bst) |
+## Binary Search Tree
+|  |
+| ------- |
+| [0975-range-sum-of-bst](https://github.com/arefinthecybersec/Blind-75-and-Neetcode-Problems-Solve/tree/master/0975-range-sum-of-bst) |
 <!---LeetCode Topics End-->
