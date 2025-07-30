@@ -1,0 +1,30 @@
+Q: Taken 3 int input and check the max number?
+
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void maxDigit (int a, int b, int c) {
+    if(a > b) {
+        if(a > c) {
+            cout << "Maximum is: " << a;
+        }
+        else cout << "Maximum is: " << c;
+    }
+    else if(b > a) {
+        if(b > c) {
+            cout << "Maximum is: " << b;
+        }
+        else cout << "Maximum is: " << c;
+    }
+    else cout << "Maximum is: " << c;
+
+}
+
+int main() {
+    int a, b, c;
+    cin >> a >> b >> c;
+
+    maxDigit(a, b, c);
+    return 0;
+}

@@ -1,0 +1,40 @@
+5. Given an array with repeating elements:
+
+numbers[] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4}
+
+Count the occurrence of each number.
+
+✅ Output:
+
+1: 1  
+2: 2  
+3: 3  
+4: 4
+
+============================================
+T.C = o(n log n)
+S.C = o(n)
+============================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void freqArr(int numbers[], int n) {
+    map<int, int> freq;
+
+    for(int i = 0; i < n; i++) {
+        freq[numbers[i]]++;
+    }
+
+    for(auto u: freq) {
+        cout << u.first << ": " << u.second << endl;
+    }
+}
+
+int main() {
+    int numbers[] = {1, 2, 2, 3, 3, 3, 4, 4, 4, 4};
+    int n = sizeof(numbers)/sizeof(numbers[0]);
+
+    freqArr(numbers, n);
+    return 0;
+}

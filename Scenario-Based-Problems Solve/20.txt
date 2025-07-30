@@ -1,0 +1,36 @@
+1. Given an array:
+
+numbers[] = {11, 7, 2, 15, 6}
+
+Find the difference between the maximum and second
+maximum value.
+
+-------------------------------------------------
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void checkArr(int numbers[], int n) {
+    int mx = INT_MIN;
+    int second_mx = INT_MIN;
+
+    for(int i = 0; i < n; i++) {
+        if(numbers[i] > mx) {
+            second_mx = mx;
+            mx = numbers[i];
+        }
+        else if(numbers[i] < mx && numbers[i] > second_mx) {
+            second_mx = numbers[i];
+        }
+    }
+    cout << mx - second_mx;
+}
+
+int main() {
+    int numbers[] = {11, 7, 2, 15, 6};
+    int n = sizeof(numbers)/sizeof(numbers[0]);
+
+    checkArr(numbers, n);
+    return 0;
+}
+

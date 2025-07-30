@@ -1,0 +1,43 @@
+Q: numbers[] = {11, 7, 2, 15, 6}
+Calculate the sum of all prime numbers in the array.
+
+✅ Output: 20
+
+===================================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int sumPrimeNum(int numbers[], int n) {
+    int sum = 0;
+    for(int i = 0; i < n; i++) {
+        if(numbers[i] <= 1) continue;
+
+        bool isPrime = true;
+        for(int j = 2; j*j <= numbers[i]; j++) {
+            if(numbers[i] % j == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+
+        if(isPrime)
+            sum += numbers[i];
+    }
+    cout << sum;
+}
+
+int main() {
+    int numbers[] = {11, 7, 2, 15, 6, 0, 1};
+    int n = sizeof(numbers)/sizeof(numbers[0]);
+
+    sumPrimeNum(numbers, n);
+    return 0;
+}
+
+
+
+
+
+
+

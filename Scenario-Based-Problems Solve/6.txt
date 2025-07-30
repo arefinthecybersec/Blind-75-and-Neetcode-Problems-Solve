@@ -1,0 +1,112 @@
+Q: Write a program to check balance and withdraw money from ATM booth using if else or switch case
+
+Test Case 1:
+Input:
+1
+Output:
+Your current balance is: 5000 Taka
+
+Test Case 2:
+Input:
+2
+6000
+Output:
+Insufficient balance!
+
+Test Case 3:
+Input:
+2
+2000
+Output:
+Withdrawal successful.
+Remaining balance: 3000 Taka
+Test Case 4:
+Input:
+2
+0
+Output:
+Invalid withdrawal amount!
+
+Test Case 5:
+Input:
+3
+Output:
+Thank you for using the ATM. Goodbye!
+
+-------------------------------------------------
+
+Code:
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int balance = 2000;
+    cout << "Choice 1: Show Balance" << endl;
+    cout << "Choice 2: Withdraw Balance" << endl;
+    cout << "Choice 3: Deposit Balance" << endl;
+    cout << "Choice 4: Exist" << endl;
+
+    cout << endl << "Enter Your Choice: " << endl;
+    int choice; cin >> choice;
+
+    switch(choice) {
+        case 1: {
+            cout << "Your current account balance is: " << balance << endl;
+            break;
+        }
+
+        case 2: {
+            cout << "Your current account balance is: " << balance << endl;
+            int amount;
+            cin >> amount;
+            int stayBalance = balance - 500;
+            if(amount > stayBalance || amount < 0) {
+                cout << "Invalid withdrawal amount!"<< endl;
+            }
+            else if(amount > balance) {
+                cout << "Insufficient balance!" << endl;
+            }
+            else {
+                cout << "Withdrawal successfully" << endl;
+                cout << "Remaining balance: " << balance - amount << endl;
+            }
+            break;
+        }
+
+        case 3: {
+            cout << "Your current account balance is: " << balance << endl;
+            int amount;
+            cin >> amount;
+            if((isdigit(balance)) && balance >= 500) {
+                balance += amount;
+                cout << "Add money Successfully"<< endl;
+                cout << "Total balance: " << balance << endl;
+            }
+            else {
+                cout << "Invalid amount! Min deposit balance is 500"<< endl;
+            }
+            break;
+        }
+
+        case 4: {
+            cout << "Thank you for using the EBL. Goodbye!"<< endl;
+            break;
+        }
+
+        default: {
+            cout << "Invalid choice!" << endl;
+        }
+    }
+    return 0;
+}
+
+// 1 -> show
+// 2 -> Withdraw
+// 3 -> Add Money
+// 4 -> Exist (msg)
+
+// initial balance = 2000
+// min stay balance = 500
+// min deposit balance = 500
+
+

@@ -1,0 +1,45 @@
+14. Write a program to break down a given amount into
+currency notes.
+
+Available notes: [1000, 500, 200, 100, 50, 20, 10, 5, 2, 1]
+
+Input: 546
+
+✅ Output:
+
+500 x 1  
+20 x 2  
+5 x 1  
+1 x 1
+
+=============================================
+T.C = o(n) 
+S.C = o(n)
+=============================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void totalNotes(int amount, int notes[], int n) {
+    vector<pair<int, int>> v;
+
+    for(int i = 0; i < n; i++) {
+        if(notes[i] <= amount) {
+            v.push_back({notes[i], amount/notes[i]});
+        }
+        amount %= notes[i];
+    }
+
+    for(auto u: v) {
+        cout << u.first << "x" << u.second << endl;
+    }
+}
+
+int main() {
+    int amount; cin >> amount;
+    int notes[10] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int n = sizeof(notes)/sizeof(notes[0]);
+
+    totalNotes(amount, notes, n);
+    return 0;
+}

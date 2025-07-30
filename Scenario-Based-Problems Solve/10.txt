@@ -1,0 +1,27 @@
+Q: Print all elements from an array?
+
+6
+-0 -2 1000 09 1 00
+
+-----------------------
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void printArr(int arr[], int n) {
+    for(int i = 0; i < n; i++)
+        cout << arr[i] << " ";
+
+}
+
+int main() {
+    int n; cin >> n;
+    int arr[n];
+    for(int i = 0; i < n; i++)
+        cin >> arr[i];
+
+    printArr(arr, n);
+
+    return 0;
+}
+

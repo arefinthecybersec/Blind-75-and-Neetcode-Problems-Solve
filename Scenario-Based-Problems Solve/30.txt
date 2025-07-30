@@ -1,0 +1,36 @@
+11. Remove all vowels from a string.
+
+Input: "I am a SQA Engineer"
+
+✅ Output: m sq ngnr
+
+========================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+string removeVowels(string str) {
+    for(int i = 0; i < str.size(); i++) {
+        char ch = tolower(str[i]);
+        if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+            str.erase(i, 1);
+            i--;
+        }
+    }
+    return str;
+}
+
+void printStr(string str) {
+    if(!str.empty() && str.front() == ' ') {
+        str.erase(0, 1);
+    }
+    cout << removeVowels(str);
+}
+
+int main() {
+    string str = "I am a SQA Engineer";
+
+    printStr(str);
+    return 0;
+}
+

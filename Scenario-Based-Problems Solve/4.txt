@@ -1,0 +1,34 @@
+Q: Write a program to check if inputted letter is small or capital?
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    char ch; cin >> ch;
+
+    if(ch >= 'A' && ch <= 'Z') {
+        cout << ch << " is capital letter";
+    }
+    else if(ch >= 'a' && ch <= 'z') {
+        cout << ch << " is small letter";
+    }
+    else cout << ch << " is not a valid character";
+
+    return 0;
+}
+
+Test Case 1:
+Input: a
+Output: Small Letter
+
+Test Case 2:
+Input: Z
+Output: Capital Letter
+
+Test Case 3:
+Input: m
+Output: Small Letter
+
+Test Case 4:
+Input: G
+Output: Capital Letter

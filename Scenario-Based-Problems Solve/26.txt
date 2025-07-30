@@ -1,0 +1,43 @@
+7. Input string: "abcaabbcc"
+
+Print all unique characters and their total count.
+
+✅ Output:
+
+Unique characters: a, b, c  
+Total unique characters: 3
+
+================================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void uniqueChar(string str) {
+    map<char, int> freq;
+
+    for(int i = 0; i < str.size(); i++) {
+        freq[str[i]]++;
+    }
+
+    int cnt = 0;
+    int sz = freq.size();
+    cout << "Unique characters: ";
+
+    for(auto u: freq) {
+        cout << u.first;
+        cnt++;
+
+        if(cnt < sz) {
+            cout << ", ";
+        }
+    }
+    cout << endl << "Total unique characters: " << cnt << endl;
+
+}
+
+int main() {
+    string str = "abcaabbcc";
+
+    uniqueChar(str);
+    return 0;
+}

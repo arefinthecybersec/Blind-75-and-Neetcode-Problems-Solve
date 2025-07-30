@@ -1,0 +1,79 @@
+9. Generate a random password with the following rules:
+
+Must be 8 characters long
+Must include at least:
+One uppercase letter
+One lowercase letter
+One numeric digit
+One special character
+✅ Example Output: A9@hjs7K
+
+===========================================
+Approach: 1
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    //Generate a random password:
+    srand(time(0));
+
+    string s1 = "ENCRYPTXD";
+    string s2 = "paskword";
+    string digit = "123456780";
+    string special = "@#*&$%";
+
+    int n = 8;
+    string ans;
+
+    for(int i = 0; i < 2; i++) {
+        int random = rand() % (i+1);
+
+        ans.push_back(s1[random]);
+        ans.push_back(digit[random]);
+        ans.push_back(s2[random]);
+        ans.push_back(special[random]);
+    }
+
+    random_shuffle(ans.begin(), ans.end());
+    cout << ans;
+    return 0;
+}
+
+
+=============================================
+Approach: 2  (best & complex)
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    //Generate a random password:
+    srand(time(0));
+
+    string upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    string lower = "abcdefghijklmnopqrstuvwxyz";
+    string digit = "1234567890";
+    string special = "@#*&$%";
+    string all = upper + lower + digit + special;
+
+    string password;
+
+    // fulfilled 4th characters:
+    password += upper[rand() % upper.size()];
+    password += lower[rand() % lower.size()];
+    password += digit[rand() % digit.size()];
+    password += special[rand() % special.size()];
+
+    // next 4 char wandomely add:
+    for(int i = 0; i < 3; i++) {
+        password += all[rand() % all.size()];
+    }
+
+    random_shuffle(password.begin(), password.end());
+
+    cout << password;
+    return 0;
+}
+
+

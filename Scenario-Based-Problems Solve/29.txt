@@ -1,0 +1,57 @@
+10. Remove all special characters from a string.
+
+Input: "s@atur!day"
+
+✅ Output: saturday
+
+Approach: 1
+============================================
+T.C = o(n^2)
+S.C = o(1)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void validStr(string str) {
+    for(int i = 0; i < str.size(); i++) {
+        if(!isalpha(str[i])) {
+            str.erase(i, 1);
+            i--;
+        }
+    }
+    cout << str;
+}
+
+int main() {
+    string str = "s@atur!day123";
+
+    validStr(str);
+    return 0;
+}
+
+
+
+Approach: 2
+============================================
+T.C = o(n)
+S.C = o(1)
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void validStr(string str) {
+    string res = "";
+    for(int i = 0; i < str.size(); i++) {
+        if(isalpha(str[i])) {
+            res += str[i];
+        }
+    }
+    cout << res;
+}
+
+int main() {
+    string str = "s@atur!day123";
+
+    validStr(str);
+    return 0;
+}

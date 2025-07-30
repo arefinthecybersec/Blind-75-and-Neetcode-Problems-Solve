@@ -1,0 +1,31 @@
+Q: numbers[] = {11, 7, 7, 11, 2, 15, 6, 6}
+Remove all duplicate values and then calculate the
+sum of the unique elements.
+
+✅ Output:41
+
+==================================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void sumUniqueNum(vector<int> &numbers) {
+
+    sort(numbers.begin(), numbers.end());
+    int sz = unique(numbers.begin(), numbers.end()) - numbers.begin();
+
+    int sum = 0;
+    for(int i = 0; i < sz; i++)
+        sum += numbers[i];
+    cout << sum;
+}
+
+int main() {
+    vector<int> numbers = {11, 7, 7, 11, 2, 15, 6, 6};
+
+    sumUniqueNum(numbers);
+    return 0;
+}
+
+
+

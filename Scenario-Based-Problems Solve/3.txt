@@ -1,0 +1,32 @@
+Q: Write a program that takes a year from user and print whether that year is a leap year or not?
+
+#include<bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int year; cin >> year;
+
+    if(year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+        cout << year << " is Leap Year";
+    }
+    else cout << year << " is Not Leap Year";
+
+    return 0;
+}
+
+//
+Test Case 1:
+Input: 2020
+Output: Leap Year
+
+Test Case 2:
+Input: 1900
+Output: Not Leap Year
+
+Test Case 3:
+Input: 2000
+Output: Leap Year
+
+Test Case 4:
+Input: 2023
+Output: Not Leap Year

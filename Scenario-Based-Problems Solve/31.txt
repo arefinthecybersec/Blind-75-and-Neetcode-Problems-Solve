@@ -1,0 +1,28 @@
+12. Check if a given string is a valid binary
+number (only contains 0 and 1).
+
+Example 1: "1001" → ✅ true
+Example 2: "2001" → ❌ false
+
+=====================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+void binaryStr(string str) {
+    int f = 0;
+    for(int i = 0; i < str.size(); i++) {
+        if(str[i] != '0' && str[i] != '1') {
+            f = 1;
+            cout << "false"; return;
+        }
+    }
+    cout << "true";
+}
+
+int main() {
+    string str = "00001";
+
+    binaryStr(str);
+    return 0;
+}

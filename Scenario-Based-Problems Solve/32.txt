@@ -1,0 +1,27 @@
+13. Given a paragraph:
+
+A Core i7 laptop price is 85000 tk and a gaming mouse
+price is 2500 tk. If I buy the laptop and 1 piece of
+mouse, what will be my total cost after giving 15% 
+discount?
+Extract the digits and calculate the final cost
+after the discount.
+
+✅ Output: 74,375 tk
+
+================================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int laptop_price = 85000;
+    int mouse_price = 2500;
+
+    int total = (laptop_price + mouse_price);
+    int discount = (total * 15) / 100;
+
+    cout << "After discount price: " << total-discount << " tk";
+
+    return 0;
+}

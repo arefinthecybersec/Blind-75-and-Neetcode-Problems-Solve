@@ -1,0 +1,27 @@
+Q: Given input as an array, check target will exit in the array?
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void numFound (int arr[], int target, int n) {
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == target) {
+            cout << "Found";
+            return;
+        }
+    }
+    cout << "Not Found";
+}
+
+int main() {
+    int n, target; cin >> n >> target;
+
+    int arr[n];
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    numFound(arr, target, n);
+    return 0;
+}
+

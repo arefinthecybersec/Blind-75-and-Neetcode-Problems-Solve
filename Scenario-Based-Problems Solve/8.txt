@@ -1,0 +1,63 @@
+Write a program to print prime numbers from 2 to n?
+
+Test Case 1:
+Input: 10
+Output: 2 3 5 7
+
+Test Case 2:
+Input: 1
+Output: (no output)
+
+Test Case 3:
+Input: 2
+Output: 2
+
+Test Case 4:
+Input: 20
+Output: 2 3 5 7 11 13 17 19
+
+Test Case 5:
+Input: 30
+Output: 2 3 5 7 11 13 17 19 23 29
+
+Test Case 6:
+Input: 3
+Output: 2 3
+
+Test Case 7:
+Input: 50
+Output: 2 3 5 7 11 13 17 19 23 29 31 37 41 43 47
+
+---------------------------------------------------
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void nthPrimeCheck(int n) {
+    vector <int> v;
+    for(int i = 2; i <= n; i++) {
+        int f = 0;
+        for(int j = 2; j * j <= i; j++) {
+            if(i % j == 0) {
+                f = 1;
+            }
+        }
+        if(f == 0) {
+            v.push_back(i);
+        }
+    }
+    for(auto u: v) cout << u << " ";
+
+
+}
+
+int main() {
+
+    int n; cin >> n;
+    nthPrimeCheck(n);
+
+    return 0;
+}
+
+// not divisible by any numbers without (1 & Itself)
+

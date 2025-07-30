@@ -1,0 +1,38 @@
+6. Given an array:
+
+numbers[] = {1, 2, 3, 4, 4, 5, 6, 6, 7}
+
+Return only the repetitive elements.
+
+✅ Output:4, 6
+
+============================================
+T.C = o(n)
+S.C = o(n)
+============================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void duplicateElem(int numbers[], int n) {
+
+    unordered_map<int, int> freq;
+    for(int i = 0; i < n; i++) {
+        freq[numbers[i]]++;
+    }
+
+    for(auto u: freq) {
+        if(u.second > 1) {
+            cout << u.first << " ";
+        }
+    }
+}
+
+int main() {
+    int numbers[] = {1, 2, 3, 4, 4, 5, 6, 6, 7};
+    int n = sizeof(numbers)/sizeof(numbers[0]);
+    int ansArr[] = {};
+
+    duplicateElem(numbers, n);
+    return 0;
+}

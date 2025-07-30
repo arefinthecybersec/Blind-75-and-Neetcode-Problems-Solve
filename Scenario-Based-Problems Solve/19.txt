@@ -1,0 +1,63 @@
+Q: Find the number of notes from input amount in given
+array [1000,500,200,100,50,20,10,5,2,1].
+
+
+Test Case-1
+Input: 7896
+Output:
+1000 x 7  
+500 x 1  
+200 x 1  
+100 x 1  
+50 x 1  
+20 x 2  
+5 x 1  
+1 x 1
+
+
+Test Case 2:
+Input: 9327
+Output:
+1000 x 9  
+200 x 1  
+100 x 1  
+20 x 1  
+5 x 1  
+2 x 1
+
+=========================================
+T.C = o(N)
+S.C = o(N)
+=========================================
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void checkNotes(int notes[], int amount, int n) {
+    vector<pair<int, int>> total;
+
+    //while(amount > 0) {
+        for(int i = 0; i < n; i++) {
+            if(notes[i] <= amount) {
+                int cash = amount / notes[i];
+                amount %= notes[i];
+                total.push_back({notes[i], cash});
+            }
+            //break;
+        }
+    //}
+
+    for(auto u: total) {
+        cout << u.first << "X" << u.second << endl;
+    }
+}
+
+int main() {
+    int amount; cin >> amount;
+    int notes[10] = {1000, 500, 200, 100, 50, 20, 10, 5, 2, 1};
+    int n = sizeof(notes)/sizeof(notes[0]);
+
+    checkNotes(notes, amount, n);
+    return 0;
+}
+

@@ -1,0 +1,31 @@
+Q: Find if a given element is exist in the array?
+
+7
+-0 -11 -22 10001 202 -77 -311
+10001
+------------------------------------
+
+#include<bits/stdc++.h>
+using namespace std;
+
+void checkElement(int arr[], int target, int n) {
+
+    for(int i = 0; i < n; i++) {
+        if(arr[i] == target) {
+            cout << "Target Element is found!";
+            return;
+        }
+    }
+    cout << "Target Element is not found!";
+}
+
+int main() {
+    int arr[7] = {-0, -11, -22, 10001, 202, -77, -311};
+    int target; cin >> target;
+    int n = sizeof(arr)/sizeof(arr[0]);
+
+    checkElement(arr, target, n);
+
+    return 0;
+}
+

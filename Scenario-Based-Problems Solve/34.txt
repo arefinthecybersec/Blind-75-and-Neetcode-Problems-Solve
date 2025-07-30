@@ -1,0 +1,63 @@
+15. A question paper has 15 questions worth either 5 marks
+or 10 marks.
+
+You need to total exactly 100 marks.
+
+Find the number of 5-mark and 10-mark questions.
+✅ Output:
+
+5-mark questions: 10  
+10-mark questions: 5
+
+
+Approach: 1
+============================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int total_questions = 15;
+    int total_marks = 100;
+
+    // Let x = number of 5-mark questions
+    // Let y = number of 10-mark questions
+    // We have:
+    // x + y = 15
+    // 5x + 10y = 100
+
+    cout << "5-mark questions: " << (total_marks/2) / 5 << endl;
+    cout << "10-mark questions: " << (total_marks/2) / 10 << endl;
+
+    return 0;
+}
+
+
+Approach: 2
+============================================
+
+#include <bits/stdc++.h>
+using namespace std;
+
+int main() {
+    int total_questions = 15;
+    int total_marks = 100;
+
+    // Let x = number of 5-mark questions
+    // Let y = number of 10-mark questions
+    // We have:
+    // x + y = 15
+    // 5x + 10y = 100
+
+    for(int x = 0; x <= total_questions; x++) {
+        int y = total_questions - x;
+
+        if((5 * x + 10 * y) == total_marks) {
+            cout << "5-mark questions: " << x << endl;
+            cout << "10-mark questions: " << y << endl;
+            break;
+        }
+    }
+
+    return 0;
+}
